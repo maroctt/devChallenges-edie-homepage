@@ -38,6 +38,7 @@ a{
 /* NAVBAR */
 .mobile-menu{
     display: none;
+    cursor: pointer;
 }
 .desktop-menu{
     display: flex;
@@ -140,6 +141,27 @@ input{
     color: var(--grey-200);
     font-size: 1.125rem;
     text-transform: capitalize;
+}
+
+/* MOBILE MENU*/
+.menu-mobile{
+    padding:20px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    display: none;
+
+}
+.menu-mobile li{
+    padding: 5px;
+}
+.shown{
+    display: flex;
+    opacity: 1;
 }
 
 /* SECTIONS */
